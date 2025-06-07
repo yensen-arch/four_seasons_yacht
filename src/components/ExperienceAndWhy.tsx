@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Personalized Voyages",
-  description: "Each itinerary is crafted to blend iconic ports with hidden enclaves, allowing for deeper cultural immersion and discovery.",
+  title: "Legendary Brand at Sea",
+  description: "Four Seasons brings its iconic service and elegance to the yachting world for the first time.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Residential-Style Suites",
-  description: "All-suite accommodations offer expansive indoor-outdoor living with panoramic views and custom detailing in every corner.",
+  title: "Expansive All-Suite Living",
+  description: "Spacious suites with floor-to-ceiling views, oversized bathrooms, and private terraces.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Unparalleled Service",
-  description: "Enjoy the legendary Four Seasons hospitality—personalized, intuitive, and seamless — at sea.",
+  title: "Elevated Onboard Lifestyle",
+  description: "Exceptional dining, spa experiences, and personalized service recreate the luxury hotel experience at sea.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Elegant Lifestyle at Sea",
-  description: "From Michelin-inspired dining and world-class wellness to exclusive events and curated excursions, life onboard mirrors the best of a Four Seasons stay.",
+  title: "Private Marina Experience",
+  description: "Guests enjoy direct ocean access via an onboard marina for water sports and tendering ashore.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Four Seasons Yachts Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
